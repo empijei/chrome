@@ -1,11 +1,11 @@
 #
 # Chrome Dockerfile
 #
-# https://github.com/dockerfile/chrome
+# https://github.com/empijei/chrome
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu-desktop
+FROM empijei/ubuntu-desktop
 
 # Install Chromium.
 RUN \
